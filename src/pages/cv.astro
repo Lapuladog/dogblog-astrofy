@@ -5,20 +5,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">简介</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    沈睿诚，浙江桐乡人
+
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-3xl w-full font-bold">教育</div>
   </div>
 
+  <div class="mb-10 text-justify">
+    财政学博士在读
+  </div>
+
+  <!-- 注释原有时间线
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
       title="Title Name"
@@ -29,7 +32,9 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
     />
   </div>
+  -->
 
+  <!-- 注释原有经验部分
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
   </div>
@@ -54,24 +59,37 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
   </div>
+  -->
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
+    <div class="text-3xl w-full font-bold">资质</div>
   </div>
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="#" target="_blank"> 中国注册会计师（CPA） </a>
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="#" target="_blank"> 美国注册管理会计师（CMA）</a>
     </li>
   </ul>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+    <div class="text-3xl w-full font-bold">代表性著作</div>
   </div>
 
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      宋夏云, <b>沈睿诚</b>, 注册会计师审计假设体系优化研究——基于财务报表审计视角, <b>审计研究</b>, 2022,(6): 55-67 
+      <a href="https://kns.cnki.net/kcms2/article/abstract?v=0Q9DRdE4I9c9m6lfhow6NIeKL2mkrGX2LZZBcPSHU3lQxU9MB2yC10D4Ke0kpsRPe7zCPdEOTpZSAQWnh814b2qVIzg_XlBIIOJRl6qO1Dx6EQmFMCEfUcebsQxzCWab4z3rg5bXaA0=&uniplatform=NZKPT&flag=copy" target="_blank">(<u>知网链接</u>)</a>
+    </li>
+    <li>
+      <b>沈睿诚</b>, 宋夏云, 社保基金持股与企业金融化, 财经论丛, 2023, (2): 68-79 
+      <a href="https://kns.cnki.net/kcms2/article/abstract?v=0Q9DRdE4I9eKDV2IV3HeHYXmIQSxoAa4VDUcCRajueQIIUKPrvKhW8B41c_tiyYPfQnP1LpDIz2stls7Nr3roJOPF5te0ClOGjB3oKo92NsdEGPYbenv7S0H_1sLheBKSRgbNhYB954=&uniplatform=NZKPT&flag=copy" target="_blank"> (<u>知网链接</u>)</a>
+    </li>
+  </ul>
+
+<!-- 注释5列的段落
   <ul class="list-disc md:columns-5 columns-2 mx-6">
     <li>Skill Name</li>
     <li>Skill Name</li>
@@ -89,4 +107,6 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Skill Name</li>
     <li>Skill Name</li>
   </ul>
+-->
+
 </BaseLayout>
